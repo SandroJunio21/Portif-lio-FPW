@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    margin: 0 auto;
+    font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    background-color: rgba(252, 234, 213, 0.555);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+header{
+    background-color: red;
+    text-align: center;
+    padding: 18px;
+}
+.menu{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+a.menu:hover {
+    background-color: rgb(179, 179, 179, 0.993);
+    color: rgb(0, 0, 0);
+}
+.contato{
+    margin:10px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form {
+    margin:10px 10px;
+    padding: 10px;
+}
+input{
+    font-size:20px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#direitos{
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 570px;
+}
+.rodapé{
+    background-color: red;
+    padding: 13px;
+    margin-top: 180px;
+    position: static;
+}
+.insta{
+    margin: 0;
+    padding: 0;
+    transform: translate(200px, -42px) 
+}
+.nomeInsta{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 205px;
+    position: relative;
+    top: -47px;
+}
+a.nomeInsta:hover{
+    color: black;
+    background: white;
+}

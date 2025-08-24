@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    margin: 0 auto;
+    font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    background-color: rgba(252, 234, 213, 0.555);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+header{
+    background-color: red;
+    text-align: center;
+    padding: 18px;
+}
+.white{
+    color: rgb(255, 255, 255);
+}
+.menu{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+p{ 
+    text-align: center;
+    margin: 80px 300px;
+    font-size: 22px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+a {
+    color: #020202;
+    padding: 4px 15px;
+    text-decoration: none;
+    font-size: 17px;  
+}
+a.menu:hover {
+    background-color: rgb(179, 179, 179, 0.993);
+    color: rgb(0, 0, 0);
+}
+.trabalhos{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    margin: 10px 400px;
+}
+
+a.trabalho:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(179, 179, 179, 0.993);
+}
+#direitos{
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 570px;
+}
+.rodapé{
+    background-color: red;
+    padding: 13px;
+    margin-top: 440px;
+    position: static;
+}
+.insta{
+    margin: 0;
+    padding: 0;
+    transform: translate(200px, -42px) 
+}
+.nomeInsta{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 205px;
+    position: relative;
+    top: -47px;
+}
+a.nomeInsta:hover{
+    color: black;
+    background: white;
+}

@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    margin: 0 auto;
+    font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    background-color: rgba(252, 234, 213, 0.555);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h5{
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+header{
+    background-color: red;
+    text-align: center;
+    padding: 18px;
+}
+.white{
+    color: rgb(255, 255, 255);
+}
+.conteudo{
+    width: 1400px;
+    margin: 0;
+    padding: 15px;
+}
+.foto{
+    display: block;
+    margin: -50px auto;
+    border: solid rgb(0, 0, 0) 6px;
+    border-radius: 15px;
+    background: white;
+
+}
+.jogos{
+    float: right;
+    transform: translate(0px, 130px);
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.esportes{
+    float: right;
+    transform: translate(205px, 300px);
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.menu{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+a.menu:hover {
+    background-color: rgba(179, 179, 179, 0.993);
+    color: rgb(0, 0, 0);
+}
+p{ 
+    text-align: center;
+    margin: 0px 200px;
+    width: 700px;
+    font-size: 22px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 500px;
+    clear: both;
+}
+#direitos{
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 570px;
+}
+.rodapé{
+    max-height: 80px;
+    background-color: red;
+    padding: 10px;
+    margin-top: 30px;
+    position:static;
+}
+.fundo{
+    width: 1145px;
+    float: left;
+    clear: both;
+}
+.link-insta{
+    position: absolute;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+    top: 1000px;
+}
+.insta{
+    width: 25px;
+    margin: 0;
+    padding: 0;
+    transform: translate(175px, -49px) ;
+    position: absolute;
+}
+.nomeInsta{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 205px;
+    position: absolute;
+    top: -47px;
+}
+a.nomeInsta:hover{
+    color: black;
+    background: white;
+}

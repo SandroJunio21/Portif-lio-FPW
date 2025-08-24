@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    margin: 0 auto;
+    font-family:Times 'Times New Roman', Times, serif;
+    padding: 0;
+    background-color: rgba(252, 234, 213, 0.555);
+}
+
+h1{
+    font-size: 50px;
+}
+header{
+    background-color: red;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(255, 0, 0);
+}
+  
+ul li{
+    display: inline;
+}
+  
+li a {
+    color: #ffffff;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+  
+li a:hover {
+    background-color: rgb(179, 179, 179, 0.993);
+    color: rgb(0, 0, 0);
+}
+
+.white{
+    color:aliceblue
+}
+
+.fotocapa {
+    display: block;
+    margin: 70px auto;
+    border-radius: 15px;
+    border:rgb(0, 0, 0) solid 6px;
+}
+#direitos{
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 570px;
+}
+.rodapé{
+    background-color: red;
+    padding: 13px;
+    margin-top: 120px;
+    position: static;
+}
+.insta{
+    margin: 0;
+    padding: 0;
+    transform: translate(200px, -42px) 
+}
+.nomeInsta{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 205px;
+    position: relative;
+    top: -47px;
+}
+a.nomeInsta:hover{
+    color: black;
+    background: white;
+}
