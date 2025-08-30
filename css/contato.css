@@ -30,6 +30,7 @@ a.menu:hover {
     color: rgb(0, 0, 0);
 }
 .contato{
+    text-align: center;
     margin:10px;
     padding: 10px;
     font-size: 40px;
@@ -37,8 +38,13 @@ a.menu:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 form {
-    margin:10px 10px;
+    display: block;
+    margin: 10px 650px;
+    margin-top: 40px;
     padding: 10px;
+}
+.fundo{
+    
 }
 input{
     font-size:20px;
@@ -55,22 +61,32 @@ label{
     margin: 10px 570px;
 }
 .rodapé{
+    max-height: 80px;
     background-color: red;
-    padding: 13px;
-    margin-top: 180px;
-    position: static;
+    padding: 10px;
+    margin-top: 185px;
+    position:static;
 }
-.insta{
+.link-insta{
+    position: absolute;
+    height: 0px;
     margin: 0;
     padding: 0;
-    transform: translate(200px, -42px) 
+    top: 930px;
+}
+.insta{
+    width: 25px;
+    margin: 0;
+    padding: 0;
+    transform: translate(175px, -49px) ;
+    position: absolute;
 }
 .nomeInsta{
     color: white;
     font-size: 20px;
     text-decoration: none;
     margin: 0px 205px;
-    position: relative;
+    position: absolute;
     top: -47px;
 }
 a.nomeInsta:hover{

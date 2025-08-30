@@ -60,22 +60,32 @@ li a:hover {
     margin: 10px 570px;
 }
 .rodapé{
+    max-height: 80px;
     background-color: red;
-    padding: 13px;
-    margin-top: 120px;
+    padding: 10px;
+    margin-top: 123px;
     position: static;
 }
-.insta{
+.link-insta{
+    position: absolute;
+    height: 0px;
     margin: 0;
     padding: 0;
-    transform: translate(200px, -42px) 
+    top: 930px;
+}
+.insta{
+    width: 25px;
+    margin: 0;
+    padding: 0;
+    transform: translate(175px, -49px) ;
+    position: absolute;
 }
 .nomeInsta{
     color: white;
     font-size: 20px;
     text-decoration: none;
     margin: 0px 205px;
-    position: relative;
+    position: absolute;
     top: -47px;
 }
 a.nomeInsta:hover{
