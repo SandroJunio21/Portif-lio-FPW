@@ -1,57 +1,59 @@
+/* Formatações padrões*/
 *{
     box-sizing: border-box;
     margin: 0px;
 }
 body{
     margin: 0 auto;
-    font-family:Times 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     padding: 0;
     background-color: rgba(252, 234, 213, 0.555);
 }
-
+/* header*/
 h1{
     font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 header{
     background-color: red;
     text-align: center;
-
+    padding: 18px;
 }
-
-ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 15px;
-    background-color: rgb(255, 0, 0);
-}
-  
-ul li{
-    display: inline;
-}
-  
-li a {
-    color: #ffffff;
-    padding: 8px 20px;
+.menu{
+    color: white;
     text-decoration: none;
+    padding: 5px 20px;
     font-size: 20px;
-    
 }
-  
-li a:hover {
+a.menu:hover {
     background-color: rgb(179, 179, 179, 0.993);
     color: rgb(0, 0, 0);
 }
-
-.white{
-    color:aliceblue
+/* conteúdo */
+.contato{
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.fotocapa {
+form {
     display: block;
-    margin: 70px auto;
-    border-radius: 15px;
-    border:rgb(0, 0, 0) solid 6px;
+    margin: 10px 650px;
+    margin-top: 40px;
+    padding: 10px;
 }
+
+input{
+    font-size:20px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* footer*/
 #direitos{
     text-align: center;
     font-size: 17px;
@@ -63,9 +65,10 @@ li a:hover {
     max-height: 80px;
     background-color: red;
     padding: 10px;
-    margin-top: 123px;
-    position: static;
+    margin-top: 185px;
+    position:static;
 }
+/* Rede social */
 .link-insta{
     position: absolute;
     height: 0px;

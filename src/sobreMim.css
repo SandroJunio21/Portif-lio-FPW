@@ -1,3 +1,4 @@
+/* Formatações padrões*/
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -8,12 +9,13 @@ body{
     padding: 0;
     background-color: rgba(252, 234, 213, 0.555);
 }
-
+/* header*/
 h1{
     font-size: 50px;
     text-align: center;
     color: rgb(0, 0, 0);
 }
+
 header{
     background-color: red;
     text-align: center;
@@ -29,45 +31,50 @@ header{
     font-size: 20px;
 }
 a.menu:hover {
-    background-color: rgb(179, 179, 179, 0.993);
+    background-color: rgba(179, 179, 179, 0.993);
     color: rgb(0, 0, 0);
 }
-
+/* conteúdo */
+.conteudo{
+    width: 1400px;
+    margin: 0;
+    padding: 15px;
+}
 .foto{
     display: block;
-    margin: 60px auto;
+    margin: -50px auto;
     border: solid rgb(0, 0, 0) 6px;
     border-radius: 15px;
     background: white;
+    width: 300px;
 }
 .fundo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1600px;
-    margin-top: 20px;
+    float: left;
+    clear: both;
+    margin: 0px 420px;
 }
-.formaçao{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 900px;
+h5{
+    margin-bottom: 8px;
+    font-size: 24px;
 }
-h4{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.metas{
-    margin: 50px 0px;
-    padding: 20px;
-    background-color: white;
-    margin-top: -100px;
+.jogos{
+    float: right;
+    transform: translate(-7px, 130px);
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 10px;
     border: 3px dashed rgba(133, 133, 133, 0.692);
 }
-ul li{
-    margin-top: 10px;
+
+.esportes{
+    float: right;
+    transform: translate(205px, 310px);
     font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px dashed rgba(133, 133, 133, 0.692);
 }
 
 p{ 
@@ -77,8 +84,10 @@ p{
     font-size: 22px;
     background-color: rgb(255, 255, 255);
     padding: 10px;
+    margin-top: 500px;
     clear: both;
 }
+/* footer*/
 #direitos{
     text-align: center;
     font-size: 17px;
@@ -90,15 +99,16 @@ p{
     max-height: 80px;
     background-color: red;
     padding: 10px;
-    margin-top: 73px;
+    margin-top: 30px;
     position:static;
 }
+/* Rede social */
 .link-insta{
     position: absolute;
     height: 0px;
     margin: 0;
     padding: 0;
-    top: 950px;
+    top: 1000px;
 }
 .insta{
     width: 25px;
@@ -114,7 +124,6 @@ p{
     margin: 0px 205px;
     position: absolute;
     top: -47px;
-    
 }
 a.nomeInsta:hover{
     color: black;

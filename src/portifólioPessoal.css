@@ -1,62 +1,59 @@
+/* Formatações padrões*/
 *{
     box-sizing: border-box;
     margin: 0px;
 }
 body{
     margin: 0 auto;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Times 'Times New Roman', Times, serif;
     padding: 0;
     background-color: rgba(252, 234, 213, 0.555);
 }
-
+/* header*/
 h1{
     font-size: 50px;
-    text-align: center;
-    color: rgb(0, 0, 0);
 }
 header{
     background-color: red;
     text-align: center;
-    padding: 18px;
+
 }
-.white{
-    color: rgb(255, 255, 255);
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(255, 0, 0);
 }
-.menu{
-    color: white;
+  
+ul li{
+    display: inline;
+}
+  
+li a {
+    color: #ffffff;
+    padding: 8px 20px;
     text-decoration: none;
-    padding: 5px 20px;
     font-size: 20px;
-}
-p{ 
-    text-align: center;
-    margin: 80px 300px;
-    font-size: 22px;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
     
 }
-a.trabalho {
-    color: #020202;
-    padding: 4px 15px;
-    font-size: 17px;  
-}
-a.menu:hover {
+  
+li a:hover {
     background-color: rgb(179, 179, 179, 0.993);
     color: rgb(0, 0, 0);
 }
-.trabalhos{
-    text-align: center;
-    padding: 10px;
-    background-color: white;
-    margin: 10px 400px;
-    border: 3px dashed rgba(133, 133, 133, 0.692);
-}
 
-a.trabalho:hover{
-    color: rgb(255, 0, 0);
-    background-color: rgb(179, 179, 179, 0.993);
+.white{
+    color:aliceblue
 }
+/* conteúdo */
+.fotocapa {
+    display: block;
+    margin: 70px auto;
+    border-radius: 15px;
+    border:rgb(0, 0, 0) solid 6px;
+}
+/* footer*/
 #direitos{
     text-align: center;
     font-size: 17px;
@@ -68,9 +65,10 @@ a.trabalho:hover{
     max-height: 80px;
     background-color: red;
     padding: 10px;
-    margin-top: 448px;
-    position:static;
+    margin-top: 123px;
+    position: static;
 }
+/* Rede social */
 .link-insta{
     position: absolute;
     height: 0px;
@@ -91,7 +89,7 @@ a.trabalho:hover{
     text-decoration: none;
     margin: 0px 205px;
     position: absolute;
-    top: -48px;
+    top: -47px;
 }
 a.nomeInsta:hover{
     color: black;
